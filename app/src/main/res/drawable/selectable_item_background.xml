@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Basılı tutulunca -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#444444"/> <!-- Basılı tutulunca koyu gri -->
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Normal durumda -->
+    <item>
+        <shape>
+            <solid android:color="#262626"/> <!-- Normalde senin koyduğun renk -->
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+</selector>
